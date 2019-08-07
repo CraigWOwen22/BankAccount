@@ -25,7 +25,7 @@ public class BankAccount {
 
     /*Return the balance*/
     public double getBalance() {
-        return balance;
+        return balance + 1;
     }
 
     public void transfer (double amount, BankAccount other){
